@@ -1,0 +1,61 @@
+<!-- Q3) Create a Student Report Table:
+• Create a table displaying details such as Student Name, Roll No., Subject, Marks, and Grade.
+• The table should have a border and a header row.
+• Use alternate row colors for better readability.
+• Include a caption that says "Student Report."
+• Add a column for each subject (Math, Science, English). -->
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Report</title>
+    </head>
+    <body>
+        <blockquote>
+            <p><h1>Student Report</h1></p>
+        </blockquote>
+        <table border="1" cellspacing="1" cellpadding="10">
+            <tr bgcolor="yellow">
+                <th rowspan="2">Student Name</th>
+                <th rowspan="2">Roll No.</th>
+                <th colspan="4">subject</th>
+                <th rowspan="2">Grade</th>
+            </tr>
+            <tr bgcolor="pink"><th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total</th>
+            </tr>
+        
+            <tr bgcolor="lawngreen">
+                <td bgcolor="cyan">John Cena</td>
+                <td>34</td>
+                <td>85</td>
+                <td>78</td>
+                <td>92</td>
+                <td>255</td>
+                <td>A</td>
+            </tr>
+            <tr bgcolor="blueviolet">
+                <td bgcolor="blue">AJ Styles</td>
+                <td>40</td>
+                <td>70</td>
+                <td>80</td>
+                <td>85</td>
+                <td>275</td>
+                <td>A</td>
+            </tr>
+            <tr bgcolor="hotpink">
+                <td bgcolor="red">Roman Reigns</td>
+                <td>45</td>
+                <td>80</td>
+                <td>65</td>
+                <td>65</td>
+                <td>315</td>
+                <td>A</td>
+            </tr>
+        </table>
+    </body>
+</html>
